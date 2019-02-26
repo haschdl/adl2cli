@@ -1,0 +1,9 @@
+[
+  "tests/test_filesystem.py::test_const",
+  "tests/test_filesystem.py::test_list",
+  "tests/test_filesystem.py::test_create",
+  "tests/test_filesystem.py::test_delete",
+  "tests/test_path.py::test_path_const",
+  "tests/test_path.py::test_path_list",
+  "tests/test_path.py::test_path_create_file"
+]

@@ -1,0 +1,15 @@
+{
+	"python.unitTest.pyTestArgs": [
+		"tests"
+	],
+	"python.unitTest.unittestEnabled": false,
+	"python.unitTest.nosetestsEnabled": false,
+	"python.unitTest.pyTestEnabled": true,
+	"python.linting.flake8Enabled": false,
+	"python.linting.pylintEnabled": false,
+	"python.linting.pep8Enabled": true,
+	"python.linting.prospectorEnabled": false,
+	"python.linting.pylamaEnabled": false,
+	"python.linting.enabled": true,
+	"python.pythonPath": ".venv\\Scripts\\python.exe"
+}

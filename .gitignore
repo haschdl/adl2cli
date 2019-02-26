@@ -1,0 +1,12 @@
+.env
+
+__pycache__/
+build/
+dist/
+
+.DS_Store
+.env
+
+*.swp
+
+pylert.spec
