@@ -10,7 +10,7 @@ apiVersion = os.getenv("AZ_API_VERSION")
 
 
 def test_path_const():
-    """Tests ADL Gen2 path ist operation"""
+    """Tests ADL Gen2 path list operation"""
 
     cli = path(apiVersion, account_name, dns_suffix, key)
     assert isinstance(cli, path)

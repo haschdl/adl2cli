@@ -11,6 +11,10 @@ class path(requester):
         super().__init__(api_version, account_name, dns_suffix, key)
     
     def list(self, file_system, recursive=True):
+        """
+        Lists the files in a given file system.
+        Implements https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/list
+        """
         verb = "GET"
         requestId = str(uuid.uuid1())
         url = "http://{account_name}.{dns_suffix}/{file_system}?recursive={recursive}&resource=filesystem" \
@@ -42,7 +46,8 @@ class path(requester):
 
     def create_file(self, file_system, path, file_contents, size):
         """
-        Creates a file
+        Creates a file. **NOT WORKING**
+        Calls https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/create
         """
 
         verb = "PUT"
